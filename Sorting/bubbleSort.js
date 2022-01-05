@@ -13,6 +13,6 @@ function bubbleSort(arr) {
     return arr;
   }
   
-  var arr = [64, 34, 25, 12, 22, 11, 90];
+  var arr = [64, 34, 25, 12, 22, 11, 90]; 
   console.log(bubbleSort(arr));
   
