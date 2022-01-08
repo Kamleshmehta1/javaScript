@@ -1,3 +1,5 @@
+//tera kaam kar
+
 function primearrber(arr) {
   let blank = [];
 
