@@ -12,7 +12,7 @@ function merge(arr, left, middle, right) {
   for (var i = 0; i < n2; i++) {
     R[i] = arr[middle + 1 + i];
   }
-
+ 
   var i = 0;
   var j = 0;
   var k = left;
