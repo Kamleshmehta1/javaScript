@@ -1,18 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- <input type="text" placeholder="enter here" onclick="abc()" name="" id="input1"> -->
-    <input type="text" placeholder="enter here" onfocus="abc()" name="" id="input1">
-    <script>
-        function abc(){
-            document.getElementById("input1").style.cssText="background-color:red;color:white";
+<script>
+
+    // Javascript program to convert a decimal
+    // number to binary number
+    
+    // function to convert decimal to binary
+    function decToBinary(n)
+    {
+        // array to store binary number
+        let binaryNum = new Array(32);
+    
+        // counter for binary array
+        let i = 0;
+        while (n > 0) {
+    
+            // storing remainder in binary array
+            binaryNum[i] = n % 2;
+            n = Math.floor(n / 2);
+            i++;
         }
+    
+        // printing binary array in reverse order
+        for (let j = i - 1; j >= 0; j--)
+            document.write(binaryNum[j]);
+    }
+    
+    // Driver program to test above function
+        let n = 1;
+        decToBinary(n);
+        
+    // This code is contributed by Mayank Tyagi
+    
     </script>
-</body>
-</html>
