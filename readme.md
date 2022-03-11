@@ -1,1 +1,1 @@
-|[Live demo] (https://www.google.com)|
+|[Live demo] https://www.google.com
